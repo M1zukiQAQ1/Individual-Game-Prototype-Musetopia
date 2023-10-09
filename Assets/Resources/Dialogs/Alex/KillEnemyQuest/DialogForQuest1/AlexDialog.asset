@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d062720f145904592e0b144860c347, type: 3}
+  m_Name: AlexDialog
+  m_EditorClassIdentifier: 
+  id: AlexDialog
+  dialogBehaviors:
+  - {fileID: 11400000, guid: 4bd1a8848cf410b45bdb6a00dab3c4d0, type: 2}
+  - {fileID: 11400000, guid: 28d84bae0e64ece47906777573fc5688, type: 2}
+  - {fileID: 11400000, guid: 5a124256d58d8274688e727076a5f3c4, type: 2}
+  - {fileID: 11400000, guid: 600a5c665e806004b9852552ec8647cc, type: 2}
+  dialogPrerequisites:
+  - questId: KillEnemyQuest
+    state: 1

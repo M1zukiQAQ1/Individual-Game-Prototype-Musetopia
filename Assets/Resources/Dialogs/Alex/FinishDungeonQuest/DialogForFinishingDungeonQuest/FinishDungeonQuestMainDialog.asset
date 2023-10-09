@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d062720f145904592e0b144860c347, type: 3}
+  m_Name: FinishDungeonQuestMainDialog
+  m_EditorClassIdentifier: 
+  id: FinishDungeonQuestMainDialog
+  dialogBehaviors:
+  - {fileID: 11400000, guid: 6df4b75a21f69414e970178d3ed3c321, type: 2}
+  - {fileID: 11400000, guid: 8c7f338e74df44244a8514a4de369d38, type: 2}
+  - {fileID: 11400000, guid: 2656a300b941b534f95b0469712e6b81, type: 2}
+  - {fileID: 11400000, guid: 83389f6defe674743a082ee4b0e896c5, type: 2}
+  dialogPrerequisites:
+  - questId: FinishDungeonQuest
+    state: 3
